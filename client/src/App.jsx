@@ -16,6 +16,7 @@ export default function App() {
             <Route path="/sign-up" element={<Signuot />} />
             <Route path="/about" element={<About />} />
             <Route path="/profile" element={<Profile />} />
+            {/* //asdasd */}
         </Routes>
     </BrowserRouter>
   
