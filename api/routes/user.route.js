@@ -7,3 +7,5 @@ router.get('/test', (req , res)=> {
         message: "Hello World",
     })
 })
+
+export default router;
