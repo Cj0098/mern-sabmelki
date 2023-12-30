@@ -23,3 +23,13 @@ app.listen(3000, ()=>{
 
 app.use('/api/user', userRouter);
 app.use('/api/auth', authRouter);
+
+app.use((err, req , res , next)=>{
+const stautsCode = err.stautsCode || 500;
+const message = err.message || "server internal error!!"
+return res.status(stautsCode).json({
+  success: false,
+  stautsCode,
+  message,
+  });
+});
