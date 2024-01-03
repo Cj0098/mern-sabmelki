@@ -34,6 +34,11 @@ export default function Header() {
             Sign in
           </li>
           </Link>
+          <Link to="/sign-up">
+          <li className="sm:inline hover:underline cursor-pointer ">
+            Sign up
+          </li>
+          </Link>
         </ul>
       </div>
     </header>

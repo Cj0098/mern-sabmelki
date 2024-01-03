@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    @font-face {
+        font-family: "kalameBlack";
+        src: url("../assets/kalameh/Kalameh-Black.ttf") format('ttf');
+    }
+ 
+@font-face {
+    font-family: "kalameExtraBold";
+    src: url("../assets/kalameh/Kalameh-ExtraBold.ttf") format('ttf');
+  }
+  
+@font-face {
+    font-family: "kalameExtraLight";
+    src: url("../assets/kalameh/Kalameh-ExtraLight.ttf") format('ttf');
+  }
+  
+@font-face {
+    font-family: "kalameLight";
+    src: url("../assets/kalameh/Kalameh-Light.ttf") format('ttf');
+  }
+  
+@font-face {
+    font-family: "kalameMedium";
+    src: url("../assets/kalameh/Kalameh-Medium.ttf") format('ttf');
+  }
+  
+@font-face {
+    font-family: "kalameRegular";
+    src: url("../assets/kalameh/Kalameh-Regular.ttf") format('ttf');
+  }
+  
+  @font-face {
+    font-family: "kalameSemiBold";
+    src: url("../assets/kalameh/Kalameh-SemiBold.ttf") format('ttf');
+  }
+  @font-face {
+    font-family: "kalameThin";
+    src: url("../assets/kalameh/Kalameh-Thin.ttf") format('ttf');
+  }
+ 
+
+}
